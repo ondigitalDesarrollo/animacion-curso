@@ -1,0 +1,24 @@
+{
+  "name": "animacion-curso",
+  "version": "0.1.0",
+  "description": "Curso Animaciones para la Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ondigitalDesarrollo/animacion-curso.git"
+  },
+  "keywords": [
+    "Animation",
+    "CSS3",
+    "Front-end"
+  ],
+  "author": "Arnold Restrepo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ondigitalDesarrollo/animacion-curso/issues"
+  },
+  "homepage": "https://github.com/ondigitalDesarrollo/animacion-curso#readme"
+}
