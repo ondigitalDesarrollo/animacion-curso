@@ -39,3 +39,8 @@ Todas las pripiedades se pueden resumir en una línea:
     transition: width 1s ease, height 1s 250ms ease;
 
 ## Transiciones de Interacción
+
+Para hacer tranciciones de interacción realizamos la animación sobre un contenedor padre.
+
+# 2. Transformaciones CSS
+

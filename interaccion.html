@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trasiciones de Interacción</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .canasta{
+            width: 100%;
+            /* border: 1px solid red; */
+            position: relative;
+            height: 200px;
+            display: flex;
+        }
+
+        .pelotaRoja, .pelotaPurpura{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            transition:  3s ease-in-out;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+
+        .pelotaRoja{
+            background: lightcoral;
+            left: 0;
+        }
+        .pelotaPurpura{
+            background: purple;
+            right: 0;
+        }
+
+        .canasta:hover .pelotaRoja  {
+            left: calc(50% - 100px);
+            transform: rotate(360deg);
+        }
+
+        .canasta:hover .pelotaPurpura{
+            right: calc(50% - 100px);
+            transform: rotate(-360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="canasta">
+        <div class="pelotaRoja">Voy a</div>
+        <div class="pelotaPurpura">tomar tinto</div>
+    </div>
+</body>
+</html>
